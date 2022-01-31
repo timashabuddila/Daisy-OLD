@@ -63,7 +63,7 @@ from DaisyX.modules.helper_funcs.misc import paginate_modules
 from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm ɢᴏʟᴅᴇɴ ʙᴏʏ
+Hello there, I'm ALEXA
                    ʙᴏᴛ👩‍🦰](https://telegra.ph/file/473cc17913393959e0667.jpg)
 
 I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managing your group
@@ -80,7 +80,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="💫 Add golden boy  helping group to our group 💫", url="https://chat.whatsapp.com/ESgq5ThSobg4ZGD4pLAGf4t=true"
+            text="💫 Add alexa helping group to our group 💫", url="https://chat.whatsapp.com/ESgq5ThSobg4ZGD4pLAGf4=true"
         ),
     ],
 ]
@@ -102,7 +102,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [Timasha](https://wa.me/message/MNOJ5IBBTOJ7H1)"""
+Support them  [Timasha](https://wa.me94773585511/message/MNOJ5IBBTOJ7H1)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -119,7 +119,7 @@ USER_SETTINGS = {}
 GDPR = []
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("DaisyX.modules." + module_name)
+    imported_module = importlib.import_module("Queen Alexa.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 
@@ -231,7 +231,7 @@ def start(update: Update, context: CallbackContext):
 
 
 def error_handler(update, context):
-    """Log the error and send a telegram message to notify the developer."""
+    """Log the error and send a whatsapp message to notify the developer."""
     # Log the error before we do anything else, so we can see it even if something breaks.
     LOGGER.error(msg="Exception while handling an update:", exc_info=context.error)
 
