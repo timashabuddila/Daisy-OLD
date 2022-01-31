@@ -1,14 +1,14 @@
 {
-      "name": "Daisy X",
-      "description": "An Anime themed Telegram group management bot.",
+      "name": "Queen Alexa ",
+      "description": "An Anime themed Whatsapp group management bot.",
       "keywords": [
-         "telegram",
+         "whatsapp",
          "anime",
          "group",
          "manager",
-         "DaisyX"
+         "alexa"
       ],   
-   "repository": "https://github.com/Inukaasith/daisy-x",
+   "repository": "https://github.com/Queen Alexa",
    "addons": [
       {
          "options": {
